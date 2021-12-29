@@ -1,0 +1,45 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+  int a,b,c;
+
+  printf("enter the angles of the triangle (in degree)\n");
+
+  printf("a = ");
+
+  scanf("%d",&a);
+
+  printf("b =" );
+
+  scanf("%d",&b);
+
+  printf("c = ");
+
+  scanf("%d",&c);
+
+  
+
+  if (a+b+c !=180)
+
+   printf("not a triqangle\n");
+
+  else if (a==b && b==c)
+
+   printf("equilaterial triangle\n");
+
+  else if (a==b|| b==c|| c==a)
+
+   printf("isosceles triangle\n");
+
+  else
+
+   printf("scalene triangle");
+
+  return 0;
+
+
+
+   }
